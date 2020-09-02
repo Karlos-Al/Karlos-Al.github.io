@@ -1,0 +1,98 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.wrrap{
+    max-width: 1300px;
+    margin: auto;
+}
+/*-------Menu---------*/
+header{
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 82%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(8%, rgba(0,0,0,1)), color-stop(82%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 82%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 82%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 82%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+}
+
+.Menu {
+    
+}
+.Menu nav .logo p{
+    color: white;
+    padding: 15px;
+    float: left
+}
+.Menu nav ul{
+    list-style: none;
+}
+.Menu .search{
+    float: left;
+    
+    display: block;
+   
+    margin-top: 15px;
+    width: 18%;
+}
+.Menu .search input{
+    padding: 2px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.53);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 8%, rgba(0,0,0,0.52) 82%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.53)), color-stop(0%, rgba(0,0,0,0.53)), color-stop(8%, rgba(0,0,0,0.53)), color-stop(82%, rgba(0,0,0,0.52)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 8%, rgba(0,0,0,0.52) 82%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 8%, rgba(0,0,0,0.52) 82%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 8%, rgba(0,0,0,0.52) 82%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 8%, rgba(0,0,0,0.52) 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    border: #000;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+}
+.Menu nav ul .user12 li a .user21 {
+    width: 31px;
+    border-radius: 2px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.Menu nav ul .user12 li a p{
+    float: right;
+    padding: 10px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: -7px;
+    
+}
+.Menu nav ul li {
+    float: left;
+}
+
+.Menu nav .right{
+    float: right;
+  
+}
+
+.Menu nav ul li a{
+    display: block;
+    padding: 15px;
+    font-family: Comic Sans, Comic,Sans MS, cursive;
+    color:aliceblue;
+    text-decoration: none;
+}
+.Menu nav ul li :hover{
+    background:aqua; 
+    color:seashell;
+    box-shadow:2px red;
+}
+
+

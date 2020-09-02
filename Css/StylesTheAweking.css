@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------Menu--------*/
+
+ 
+/*-------Contenido--*/
+.principal article{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#conteiner1{
+    padding-top: 52px;
+}
+.principal{
+    color: black;
+}
+.principal article p{
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-family: Arial;
+    text-align: justify;
+}
+.principal article .fecha{
+    color: darkgray;
+}
+.principal article .titulo{
+    font-family: Comic Sans, Comic Sans MS; 
+}
+
+.conten{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    z-index: 100;
+}
+/*-----Video de fondo------*/
+#fondo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -2;
+}
+.Welcome{
+    padding:23% 0;
+    text-align: center;
+    color:#fff;
+    font-weight: 400;
+}
+.Welcome h1{
+    letter-spacing: 2.5px;
+    font-weight: normal;
+    background: rgba(0,0,0,.5);
+    display:inline-block;
+    padding:10px 20px;
+}
+#Home{
+    width: 100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+}
